@@ -1,0 +1,83 @@
+body {
+    background-color: #e9ece5;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+aside {
+    border-radius: 8px;
+    position: absolute;
+    height: 100%;
+    float: left;
+    width: 20%;
+    box-sizing: content-box;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 2%;
+}
+aside img {
+    height: 200px;
+    width: 200px;
+    margin-left: 17%;
+    margin-top: 8%;
+    border-radius: 100px;
+}
+.menu ol li {
+    list-style-type: none;
+    margin-left: 28%;
+    text-decoration-line: none;
+}
+.menu ol li a {
+    text-decoration: none;
+
+}
+.presentacion {
+    background-color: #56bba7;
+    float: right;
+    margin-right: 5%;
+    margin-top: 4%;
+    border-bottom: 5px solid black;
+    width: 60%;
+    padding: 2%;
+    border-radius: 8px;
+}
+.formacion {
+    background-color: #56bba7;
+    float: right;
+    margin-right: 5%;
+    border-bottom: 5px solid black;
+    width: 60%;
+    border-radius: 8px;
+    padding: 2%;
+}
+.experiencia {
+    background-color: #56bba7;
+    float: right;
+    margin-right: 5%;
+    border-radius: 8px;
+    padding: 2%;
+    width: 60%;
+    border-radius: 8px;
+    border-bottom: 5px solid black;
+}
+.portfolio {
+    background-color: #56bba7;
+    float: right;
+    border-top: 2px solid grey;    
+    margin-right: 5%;
+    margin-left: 10%;
+    border-radius: 8px;
+    padding: 2%;
+    width: 60%;
+    margin-bottom: 15%;
+}
+.portfolio .img_port {
+    width: 160px;
+    height: 160px;
+}
+footer {
+    clear: both;
+    margin-top: 99%;
+    text-align: center;
+}

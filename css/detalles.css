@@ -1,0 +1,77 @@
+body {
+    background-color: #222;
+}
+main{
+    background-color: #E65634;
+    border-radius: 10px 14px;
+    padding: 20px 30px;
+    width: 80%;
+    margin: 2% 2% 2% 7%;
+}
+h1 {
+    color: #009A9C;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 45px;
+}
+h2 {
+    font-family: 'Signika', sans-serif;
+    color: #222;
+}
+h3{
+    font-family: 'Signika', sans-serif;
+    text-decoration-line: underline;
+    color: #222;
+}
+li {
+    font-family: 'Quicksand', sans-serif;
+    color: #222;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #222;
+}
+nav {
+    text-align: center;
+}
+a.button {
+    /* A quien evalue el codigo, la razon por la que el -webkit- esta comentado
+    es porque a pesar de tener el webkit y el moz no actuaba de igual manera
+    en firefox como en chrome y dado que cometi el error de usar desde un principio
+    firefox y como se ve en firefox me habia gustado y habia sucedido por accidente
+    decidi que lo que mejor iba a quedar esteticamente era que en chrome no
+    se viesen como boton y en firefox si. Lo/s invito a abrir el proyecto
+    en firefox y que vean porque decidi comentar el webkit y mantener
+    el -moz
+    PD: espero no les resulte muy fea la apariencia de "el menu" en chrome, en firefox
+    se ve mejor, la proxima trabajare desde el principio con chrome.*/
+    /*-webkit-appearance: button;*/
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    padding: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #009A9C;
+}
+a.button:hover {
+    box-shadow: 5px 5px 20px 1px;
+    transform: scale(1);
+    display: inline;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.mbr {
+    border-bottom: 4px solid #222;
+}
+.ts {
+    border-bottom: 4px solid #222;
+}
+.ss {
+    border-bottom: 4px solid #222;
+}
+.em {
+    border-bottom: 4px solid #222;
+}
+.even_dest {
+    color: #222;
+}

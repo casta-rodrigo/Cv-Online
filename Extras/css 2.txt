@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+}
+aside {
+    float: left;
+    width: 20%;
+}
+aside img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.presentacion {
+    float: right;
+    background-color: #313943;
+    border-radius: 8px;
+    padding: 8px;
+    width: 60%;
+    box-sizing: content-box;
+}
+.formacion {
+    float: right;
+    background-color: #313943;
+    border-radius: 8px;
+    padding: 8px;
+    width: 60%;
+}
+.experiencia {
+    float: right;
+    background-color: #313943;
+    border-radius: 8px;
+    padding: 8px;
+    width: 60%;
+}
+.portfolio {
+    float: right;
+    background-color: #313943;
+    border-radius: 8px;
+    padding: 8px;
+    width: 60%;
+}
+.portfolio .img_port {
+    width: 150px;
+    height: 150px;
+}
+footer {
+    margin-top: 98%;
+    text-align: center;
+}
